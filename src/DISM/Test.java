@@ -11,6 +11,7 @@ public class Test {
 
         System.out.println("Enter base salary of part time: ");
         SalaryPolicy p2 = new EmployeePartime(scanner.nextFloat());
+
         System.out.println("Salary of EmployeePartTime: " + p2.getSalary());
         System.out.println("Salary of EmployeeFullTime: " + p1.getSalary());
     }
