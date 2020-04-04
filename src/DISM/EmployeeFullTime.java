@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class EmployeeFullTime extends SalaryPolicy {
     public float rate;
+
     public EmployeeFullTime(float baseSalary){
         super(baseSalary);
         this.rate = 4.0f;
     }
     @Override
     public float getSalary() {
-        return this.rate * super.getBaseSalary();
+        return rate * super.getBaseSalary();
     }
 }

@@ -2,6 +2,7 @@ package DISM;
 
 abstract public class SalaryPolicy {
     public float baseSalary;
+
     public SalaryPolicy(float baseSalary){
         this.baseSalary = baseSalary;
     }

@@ -10,6 +10,6 @@ public class EmployeePartime extends SalaryPolicy {
 
     @Override
     public float getSalary() {
-        return super.getBaseSalary()*this.rate;
+        return super.getBaseSalary()*rate;
     }
 }
